@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edición de Profile</title>
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+<body class=" forms profile">
+    <section class="form-container"></section>
+    <h2>Editar mi Perfil</h2>
+    <hr>
+    <form action="" method="">
+        <div class="Profile-box">
+            <h4 class="Profile-subtitle">Avatar</h4>
+            <div class="avatar"></div>
+            <div class="input_file-container">
+                <input type="file" name="avatar" id="">
+            </div>
+        </div>
+        <div class="profile-box">
+            <h3>Datos de contacto</h3>
+            <div>
+                <div id="form_box1">
+                    <div class="input-container">
+                        <input type="email" class="input-style" name="email" placeholder="Ingrese su email" value="user_example@mail.com" disabled>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" class="input-style" name="name" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" class="input-style" name="tel" placeholder="Ingrese su teléfono">
+                    </div>
+                    <div class="input-container">
+                        <input type="number" class="input-style" name="dni" placeholder="Ingrese su DNI">
+                    </div>
+             </div>
+             <div id="form_box2">
+                <div class="input-container">
+                    <select name="province" class="input-select">
+                        <option value="" hidden selected>Elija una provincia</option>
+                        <option value="laRioja">La Rioja</option>
+                        <option value="chaco">Chaco</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="misiones">Misiones</option>
+                        <option value="chubut">Chubut</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <select name="city" class="input-select">
+                        <option value="" hidden selected>Elija una localidad</option>
+                        <option value="localidad1">Localidad1</option>
+                        <option value="localidad2">Localidad2</option>
+                        <option value="localidad3">Localidad3</option>
+                        <option value="localidad4">Localidad4</option>
+                        <option value="localidad5">Localidad5</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <input type="text" class="input-style" name="street" placeholder="Calle">
+<div class="input-container">
+                    <input type="number" class="input-style" name="number" placeholder="Número">
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div >
+
+        </div>
+        <div class="btn-container">
+            <button type="reset" class="btn btn-reset">limpiar</button>
+            <button type="submit" class="btn btn-edit">guardar</button>
+        </div>
+    </form>
+    
+</body>
+</html>
